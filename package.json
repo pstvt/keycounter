@@ -1,17 +1,14 @@
 {
   "name": "keycounter",
   "version": "1.0.2",
-  "description": "",
-  "main": "dist/app.js",
+  "description": "A simple tool that counts your key presses on the keyboard",
   "bin": "dist/app.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/app.js start",
-    "install": "node dist/app.js install",
-    "uninstall": "node dist/app.js uninstall"
+    "start": "tsc && node dist/app.js start"
   },
   "keywords": [],
-  "author": "",
+  "author": "pstvt",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21",
